@@ -35,25 +35,34 @@ export const GlobalStyle = createGlobalStyle`
         max-width: 75%;
         height: 80vh;
         background-color: #494B50;
-        padding:3rem;
+        padding: 2rem 1.5rem;
         position: relative;
         border-radius: 10px;
         overflow: hidden;
 
+        @media (max-width: 768px){
+            width: 100%;
+            max-width:90%;
+            height: 98vh;
+
+        }
     }
 
     .react-modal-close{
         position: absolute;
-        right: 35px;
-        top: 10px;
+        right: 16px;
+        top: 5px;
         border: 0;
         background: transparent;
         cursor: pointer;
         transition: transform 0.3s;
+        img{
+            width: 20px;
+        }
     }
 
     .react-modal-close:hover{
-        transform: scale(1.1);
+        transform: scale(1.2);
     }
 `;
 

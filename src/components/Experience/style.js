@@ -7,7 +7,6 @@ export const Container = Styled.section`
     overflow-x: hidden;
     overflow-y: scroll;
 
-
     ::-webkit-scrollbar{
         width:5px;
     }
@@ -36,35 +35,55 @@ export const HeaderProfile = Styled.header`
         font-size:35px;
         font-weight:700;
         color:#fff;
+        @media (max-width: 768px){
+            font-size:24px;
+        }
     }
 `
 
 export const Section = Styled.section` 
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    display:flex;
     margin-top: 30px;
     color: #fff;
     gap: 30px;
- 
+    @media (max-width: 768px){
+        flex-direction: column;
+    }
 
-
-    div{
+    .box-1, .box-2 {
+        width: 50%;
         position: relative;
+        @media (max-width: 768px){
+            width: 100%;
+        }
+
         h2{
             font-weight:700;
             font-size:36px;
             margin-left:40px;
+            @media (max-width: 768px){
+                font-size:20px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
         }
         .shape{
-            display: inline-block;
+            border: 1px solid #fff;
             position: absolute;
-            left: 0px;
-            top: 50%;
             transform: translateY(-50%);
+            left: 0;
+            top: 25px;
             width: 24px;
             height: 24px;
             border-radius: 100%;
-            border: 3px solid #ff451b
+            border: 3px solid #ff451b;
+            @media (max-width: 768px){
+                top: 0;
+                width:18px;
+                height: 18px;
+                top: 15px;
+            }
         }
 
         .shape:before {
@@ -88,21 +107,29 @@ export const CardExperiences = Styled.div`
     flex-direction: column;
     position: relative;
     margin-bottom:30px;
-    padding-right:20px ;
+    padding-right:20px;
 
     h3{
         font-size:19px;
         font-weight:600;
+        @media (max-width: 768px){
+            font-size:16px
+        }
     }
 
     span{
         color: #d3d7df;
         font-weight: 400;
-        
+        @media (max-width: 768px){
+            font-size:14px
+        }
     }
     p{
         color:#a7afbd;
         font-weight:400;
+        @media (max-width: 768px){
+            font-size:12px
+        }
     }
 
     .data{
@@ -116,6 +143,10 @@ export const CardExperiences = Styled.div`
         font-size:15px;
         right: 0;
         top: 0;
+        @media (max-width: 768px){
+            position: relative;
+            text-align: center;
+        }
     }
 
     @keyframes progress-animation{
@@ -130,17 +161,29 @@ export const CardExperiences = Styled.div`
         width: 100%;
         height:30px;
         appearance:none;
+
+        @media (max-width: 768px){
+           height:20px;
+        }
         
         ::-webkit-progress-bar{
         height:30px;
         border-radius: 20px;
         background-color: #eee;
+        @media (max-width: 768px){
+            height: 20px;
+            border-radius:10px;
+        }
     }
 
         ::-webkit-progress-value{
             height:30px;
             border-radius: 20px;
             background-color: #ff451b;
+            @media (max-width: 768px){
+                height: 20px;
+                border-radius:10px;
+            }
         }
     }
 
@@ -158,6 +201,8 @@ export const HeaderCards = Styled.div`
     display: flex;
     align-items: center;
     margin-bottom: 30px;
-   
+   @media (max-width: 768px){
+        margin-bottom: 30px;
+   }
     
 `

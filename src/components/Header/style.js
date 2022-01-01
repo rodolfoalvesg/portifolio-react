@@ -6,9 +6,13 @@ export const HeaderMain = Styled.header`
     display: flex;
     justify-content: space-between;
     align-items: center;
+    @media (max-width: 768px){
+        display: flex;
+        flex-direction: column;
+    }
 
     #logo{
-        width:200px;
+        width:300px;
     }
 
     div{
@@ -30,6 +34,9 @@ export const HeaderMain = Styled.header`
             li:hover{
                 transform: scale(1.1)
             }
+            @media (max-width: 768px){
+                margin-right:0;
+            }
         }
 
         .btn-cv{
@@ -44,6 +51,12 @@ export const HeaderMain = Styled.header`
 
         .btn-cv:hover{
             background-color: #FFB324;
+        }
+
+        @media (max-width: 768px){
+            display: none;
+            flex-direction: column;
+
         }
     }
 `

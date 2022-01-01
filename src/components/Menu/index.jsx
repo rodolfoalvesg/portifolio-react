@@ -6,16 +6,12 @@ import mala from '../../assets/mala.png';
 import servicos from '../../assets/servicos.png';
 import email from '../../assets/email.png';
 
-
-
 export function Menu(props) {
   
   function Options(value){
     props.onSelectComponent(value)
     props.onOpenNewPageModal()
   }
-
-  
 
   return (
       <NavStyle>

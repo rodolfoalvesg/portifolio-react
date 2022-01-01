@@ -7,7 +7,6 @@ import ManageIcon from '../../assets/manage.svg'
 import MainIcon from '../../assets/main.svg'
 import PalleteIcon from '../../assets/pallete.svg'
 
-
 export function Works() {
   return (
       <>

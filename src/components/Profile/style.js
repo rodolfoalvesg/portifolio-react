@@ -1,38 +1,58 @@
 import Styled from 'styled-components'
 
 export const Container = Styled.section`
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    
-    
-    .profile-box-1{
+    display: flex;
+    height:420px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    padding: 0 10px;
+
+
+    @media (max-width: 768px){
         display: flex;
-        position: relative;
-        overflow-x: hidden; ;
-        overflow-y: scroll;
-
+        flex-direction: column;
     }
 
-    .profile-box-1::-webkit-scrollbar{
+    ::-webkit-scrollbar{
         width:5px;
-        
     }
-
-    .profile-box-1::-webkit-scrollbar-track {
+    ::-webkit-scrollbar-track {
         background: #f1f1f1;
         border-radius:2px;
     }
 
-    .profile-box-1::-webkit-scrollbar-thumb {
+    ::-webkit-scrollbar-thumb {
         background: #888;
     }
-    .profile-box-1::-webkit-scrollbar-thumb:hover {
+    ::-webkit-scrollbar-thumb:hover {
         background: #555;
     }
+    
+    
+    .profile-box-1{
+        display: flex;
+        min-height:550px;
+ 
+        width: 50%;
+        position: relative;
+        @media (max-width: 768px){
+            width: 100%;
+            min-height:670px;
+            flex-direction: column;
+        }
+    }
 
+    
     .profile-box-2{
+        width: 50%;
         padding: 0 20px;
         color: #fff;
+        position: relative;
+        
+        @media (max-width: 768px){
+            width: 100%;
+        }
+
         h3{
             color: #ff451b;
             margin-bottom: 15px;
@@ -50,7 +70,7 @@ export const Container = Styled.section`
             margin-bottom:30px;
         }
 
-        button{        
+        a{        
             display: inline-flex;
             border: none;
             padding: 10px 30px;
@@ -60,31 +80,27 @@ export const Container = Styled.section`
             text-decoration: none;
             font-weight: 600;
             transition: all 0.3s ease;
-           
         }
-        button:hover{
+        a:hover{
             background-color: #FFB324;
 
         }
     }
-
-    
-
 `
 
 export const Section = Styled.div`
-
     min-height:420px;
-    overflow: hidden;
    
-
     figure{
         img{
-            
             width:255px;
             height:320px;
             object-fit: cover;
-            border-radius:15px
+            border-radius:15px;
+            @media (max-width: 768px){
+                width: 100%;
+                height:256px;
+            }
         }
     }
 `
@@ -100,9 +116,18 @@ export const CardProfile = Styled.div`
     padding:20px;
     overflow: hidden;
 
+    @media (max-width: 768px){
+        position: relative;
+        width: 100%;
+        top: -30px;
+        left: 0px;
+        margin-bottom: 40px;
+    
+    }
     ul {
         list-style-type: none;
         width: 90%;
+        
         li{
             border-bottom: 1px dashed rgba(255,255,255,.3);
             margin-bottom:15px;
@@ -118,7 +143,6 @@ export const CardProfile = Styled.div`
                 color: #fff;
                 font-weight:600;
                 word-break: break-all;
-                
             }
         }
     }

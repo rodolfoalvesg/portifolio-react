@@ -3,16 +3,19 @@ import Styled from 'styled-components'
 export const MainStyle = Styled.main`
     width: 100%;
     min-height: 400px;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-areas: 
-    'section-1 section-2';
+    display: flex;
     margin-top: 20px;
 
-    .box-1{
-        grid-area: section-1;
+
+    @media (max-width: 768px){
         display: flex;
         flex-direction: column;
+    }
+    
+    .box-1{
+        display: flex;
+        flex-direction: column;
+        width: 50%;
 
         h3{
             font-size: 25px;
@@ -34,23 +37,41 @@ export const MainStyle = Styled.main`
             font-size: 18px;
             line-height:1.6rem
         }
+        @media (max-width: 768px){
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            text-align: center;
+        }
     }
 
     .box-2{
-        grid-area: section-2;
-        margin: 30px 0;
-        position:relative;
+        display: flex;
+        justify-content: flex-end;
+        width: 50%;
+        overflow: hidden;
         .my-photo{
             img{
                 width: 265px;
                 height: 300px;
                 object-fit: cover;
                 object-position: 10% 50%;
-                position: absolute;
-                right:5px;
                 border-radius: 10px;
                 box-shadow: 0 0 0 5px #FF451B;
+                margin-top:40px;
+                margin-right: 5px;
             }
+            @media (max-width: 768px){
+                margin-top: -40px;
+            }
+        }
+        @media (max-width: 768px){
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            min-height: 400px;
         }
     }
 

@@ -20,7 +20,11 @@ export const NavStyle = Styled.nav`
             color: #fff;
             cursor: pointer;
             
+            @media (max-width: 768px){
+                transition: none;
+                width: 250px;
 
+            }
             li{
                 display: flex;
                 overflow: hidden;
@@ -31,6 +35,10 @@ export const NavStyle = Styled.nav`
                     margin-left:20px;
                     font-family: "Poppins", Arial, sans-serif;
                     font-weight: bold;
+                    @media (max-width: 768px){
+                        display: flex;
+                        align-items: center;
+                    }
                 }
 
                 img{
@@ -46,15 +54,19 @@ export const NavStyle = Styled.nav`
               justify-content:center;
               align-items: center;
             } 
-            
+            @media (max-width: 768px){
+                width: 250px;
+            }
         }
 
         button:focus{
             background-color: #FF451B;
         }
         
-
-
-        
+        @media (max-width: 768px){
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
     }
 `

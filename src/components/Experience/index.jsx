@@ -11,9 +11,8 @@ export function Experience() {
           <h1>Educação & Habilidades</h1>
         </HeaderProfile>
 
-
         <Section>
-          <div>
+          <div className="box-1">
               <HeaderCards>
                 <h2>Educação</h2>
                 <span className="shape"></span>
@@ -30,20 +29,20 @@ export function Experience() {
                   <h3>CTD - Certified Tech Developer</h3>
                   <span>Digital House</span>
                   <p>Certificação em Web Full Stack, desenvolvida por parceiros como Mercado Livre e Globant.</p>
-                  <span className="data">2020 - 2023</span>
+                  <span className="data">2021 - 2023</span>
                 </CardExperiences>
 
                 <CardExperiences>
-                  <h3>CST em Back-end</h3>
-                  <span>Ampli - Anhanguera</span>
-                  <p>Curso Superior de Tecnologia em Back-end.</p>
-                  <span className="data">2020 - 2023</span>
+                  <h3>Engenharia de Software</h3>
+                  <span>Ampli Educacional</span>
+                  <p>Curso Superior de Engenharia de Software.</p>
+                  <span className="data">2021 - 2024</span>
                 </CardExperiences>
 
-                <HeaderCards>
-            <h2>Experiências</h2>
-            <span className="shape"></span>
-          </HeaderCards>
+              <HeaderCards>
+                <h2>Experiências</h2>
+                <span className="shape"></span>
+              </HeaderCards>
 
           <CardExperiences>
               <h3>Aprendiz</h3>
@@ -69,16 +68,13 @@ export function Experience() {
                 Atendimento N1: Suporte e informações de nível básico; informações sobre fatura e serviços.
                 Atendimento de Retenção: Suporte Especializado em retenção de clientes por matriz de argumentação e/ou negociação conforme demanda atendida.
                 Treinamento de N1: Aplicação de Treinamento em implantação de Unidade na cidade de Mossoró/RN. Acompanhamento de treinandos através de análise de perfil e desempenho e preenchimento de dossiês.</p>
-                <span className="data">Maio/2012 - Jun/2014</span>
+                <span className="data">Mai/2012 - Jun/2014</span>
           </CardExperiences>
               
 
           </div>
 
-  
-         
-         
-          <div>
+          <div className="box-2">
             
             <HeaderCards>
               <h2> Hard Skills</h2>
@@ -121,7 +117,6 @@ export function Experience() {
 
               
           </div>
-
         </Section>
 
 

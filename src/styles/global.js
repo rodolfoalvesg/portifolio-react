@@ -12,6 +12,7 @@ export const GlobalStyle = createGlobalStyle`
     body{
         background: #1d1b1b;
         font-family: "Poppins", Arial, Helvetica, sans-serif;
+        cursor: url('../assets/teste.cur', pointer);
     }
 
     .react-modal-overlay {

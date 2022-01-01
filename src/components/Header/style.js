@@ -17,15 +17,14 @@ export const HeaderMain = Styled.header`
         ul{
             display: flex;
             list-style: none;
+            margin-right: 40px;
             li{
                 margin: 0 5px;
+                transition: all 0.3s ease;
                 img{
-                    width:20px;
-                    height:20px;
+                    width:30px;
+                    height:30px;
                 }   
-            }
-            li:nth-child(5) {
-               margin-right: 50px;
             }
 
             li:hover{

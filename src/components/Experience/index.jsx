@@ -46,19 +46,19 @@ export function Experience() {
           </HeaderCards>
 
           <CardExperiences>
-              <h3>Jr Developer</h3>
+              <h3>Aprendiz</h3>
               <span>Alpha Edtech - Stone</span>
               <p>Aprendiz de Desenvolvimento Web participando de projetos de aprendizado e projetos reais utilizando linguagens: Go Lang, Javascript, HTML5, CSS3, NodeJs, ReactJs, PostgreSQL, JQuery e TypeScript. Banco de dados: PostgreSQL. Desenvolvimento softskills. Monitoria voluntária entre outras ações.</p>
-              <span className="data">2020 - Hoje</span>
+              <span className="data">Fev/2021 - Hoje</span>
           </CardExperiences>
 
           <CardExperiences>
-              <h3>Suporte Help Desk</h3>
+              <h3>Suporte Help-Desk</h3>
               <span>Stefanini It Solutions</span>
               <p>Prestação de suporte técnico a usuários de produtos da marca D-Link Brasil.
               Produtos/Serviços Suportados: Modens, roteadores, switchs, câmeras IP, configurações de compatibilidade para windows, mac ios e linux.
               Escopo das Funções desempenhadas: Suporte e Configuração, Análise para Identificação de Defeitos, Abertura de Chamados para Nível Superior e Abertura de Procedimento de Garantia.</p>
-              <span className="data">2015 - 2017</span>
+              <span className="data">Mar/2015 - Out/2017</span>
           </CardExperiences>
 
           <CardExperiences>
@@ -69,7 +69,7 @@ export function Experience() {
                 Atendimento N1: Suporte e informações de nível básico; informações sobre fatura e serviços.
                 Atendimento de Retenção: Suporte Especializado em retenção de clientes por matriz de argumentação e/ou negociação conforme demanda atendida.
                 Treinamento de N1: Aplicação de Treinamento em implantação de Unidade na cidade de Mossoró/RN. Acompanhamento de treinandos através de análise de perfil e desempenho e preenchimento de dossiês.</p>
-                <span className="data">2012 - 2014</span>
+                <span className="data">Maio/2012 - Jun/2014</span>
           </CardExperiences>
               
 
@@ -90,7 +90,7 @@ export function Experience() {
                 <ProgressBar value="85" />
 
                 <h3>GoLang</h3>
-                <ProgressBar value="40" />
+                <ProgressBar value="35" />
 
                 <h3>HTML5</h3>
                 <ProgressBar value="95" />
@@ -99,27 +99,23 @@ export function Experience() {
                 <ProgressBar value="85" />
 
                 <h3>NodeJs</h3>
-                <ProgressBar value="75" />
-
+                <ProgressBar value="50" />
 
                 <h3>ReactJs</h3>
                 <ProgressBar value="70" />
 
 
                 <h3>TypeScript</h3>
-                <ProgressBar value="40" />
+                <ProgressBar value="25" />
 
                 <h3>Git e GitHub</h3>
-                <ProgressBar value="85" />
+                <ProgressBar value="70" />
 
                 <h3>JQuery</h3>
-                <ProgressBar value="75" />
+                <ProgressBar value="60" />
 
                 <h3>Banco de Dados</h3>
                 <ProgressBar value="75" />
-
-               
-                
 
             </CardExperiences>
 

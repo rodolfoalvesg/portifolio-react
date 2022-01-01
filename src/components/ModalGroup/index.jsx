@@ -15,23 +15,22 @@ export function ModalGroup(props) {
       case 1:
       
         return <Profile />
-        break;
       
       case 2:
         return <Experience />
-        break;
+        
       
       case 3:
         return <Portifolio />
-        break;
+        
       
       case 4:
         return <Works />
-        break;
+        
 
       case 5:
         return <Contact />
-        break;
+        
     
       default:
         break;

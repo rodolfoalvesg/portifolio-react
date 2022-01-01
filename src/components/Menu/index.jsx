@@ -12,6 +12,7 @@ export function Menu(props) {
   
   function Options(value){
     props.onSelectComponent(value)
+    props.onOpenNewPageModal()
   }
 
   
@@ -19,11 +20,11 @@ export function Menu(props) {
   return (
       <NavStyle>
           <ul>
-            <a href="#" onClick={()=> (Options(1), props.onOpenNewPageModal())}><li><img src={about} alt="Sobre mim"/><span>Perfil</span></li></a>
-            <a href="#" onClick={()=> (Options(2), props.onOpenNewPageModal())}><li><img src={agenda} alt="Experiências"/><span>Experiências</span></li></a>
-            <a href="#" onClick={()=> (Options(3), props.onOpenNewPageModal())}><li><img src={mala} alt="Portifólio"/><span>Portifólio</span></li></a>
-            <a href="#" onClick={()=> (Options(4), props.onOpenNewPageModal())}><li><img src={servicos} alt="Serviços"/><span>Serviços</span></li></a>
-            <a href="#" onClick={()=> (Options(5), props.onOpenNewPageModal())}><li><img src={email} alt="Contato"/><span>Contato</span></li></a>
+            <button onClick={()=> (Options(1))}><li><img src={about} alt="Sobre mim"/><span>Perfil</span></li></button>
+            <button onClick={()=> (Options(2))}><li><img src={agenda} alt="Experiências"/><span>Experiências</span></li></button>
+            <button onClick={()=> (Options(3))}><li><img src={mala} alt="Portifólio"/><span>Portifólio</span></li></button>
+            <button onClick={()=> (Options(4))}><li><img src={servicos} alt="Serviços"/><span>Serviços</span></li></button>
+            <button onClick={()=> (Options(5))}><li><img src={email} alt="Contato"/><span>Contato</span></li></button>
           </ul>
       </NavStyle>
   );

@@ -50,8 +50,9 @@ export const Container = Styled.section`
             margin-bottom:30px;
         }
 
-        a{        
+        button{        
             display: inline-flex;
+            border: none;
             padding: 10px 30px;
             background-color: #ff451b;
             border-radius:10px;
@@ -61,7 +62,7 @@ export const Container = Styled.section`
             transition: all 0.3s ease;
            
         }
-        a:hover{
+        button:hover{
             background-color: #FFB324;
 
         }

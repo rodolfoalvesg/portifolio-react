@@ -50,7 +50,7 @@ export function Profile() {
             Oi! Meu nome é <strong>Rodolfo Alves</strong>. Sou Web Developer e sou muito apaixonado e dedicado ao meu trabalho. Estou em constante aprendizado, buscando novos conhecimentos acerca das melhores e mais usadas tecnologias do mercado.
             </p>
 
-           <a href="#" >DOWNLOAD CV</a>
+           <button type="button">DOWNLOAD CV</button>
         </Section>
     </Container>
   );

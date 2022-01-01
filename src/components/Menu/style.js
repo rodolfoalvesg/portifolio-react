@@ -6,18 +6,20 @@ export const NavStyle = Styled.nav`
         list-style: none;
         gap: 10px;
 
-        a{
+        button{
             display: flex;
             flex-direction: row;
             align-items: center;
             padding-left: 35px;
+            border:none;
             width: 100px;
             height: 100px;
             background-color: #494B50;
             border-radius:10px;
-            transition: all .5s ease-in-out;
-            text-decoration: none;
+            transition: all .6s ease-in-out;
             color: #fff;
+            cursor: pointer;
+            
 
             li{
                 display: flex;
@@ -27,6 +29,8 @@ export const NavStyle = Styled.nav`
                     color: #fff;
                     font-weight: 400;
                     margin-left:20px;
+                    font-family: "Poppins", Arial, sans-serif;
+                    font-weight: bold;
                 }
 
                 img{
@@ -34,16 +38,18 @@ export const NavStyle = Styled.nav`
                 }
             }
         }
-        a:hover, a:focus{
+        button:hover, button:focus{
             width: 200px;   
             
             span{
               display: flex;  
+              justify-content:center;
+              align-items: center;
             } 
             
         }
 
-        a:focus{
+        button:focus{
             background-color: #FF451B;
         }
         

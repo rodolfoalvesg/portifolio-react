@@ -40,7 +40,8 @@ export const HeaderContact = Styled.header`
 `
 export const ContainerContacts = Styled.div`
     display: grid;
-    grid-template-columns: 40% 1fr;
+    //grid-template-columns: 40% 1fr;
+    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
     gap: 25px;
     margin-top:30px;
 
@@ -51,7 +52,7 @@ export const ContainerContacts = Styled.div`
         display: flex;
         flex-direction: column;
         padding: 0 10px 0 0;
-
+       
     }
 `
 export const CardsContact = Styled.div`
@@ -67,10 +68,16 @@ export const CardsContact = Styled.div`
         height: 100px;
         border-radius:50%;
         background-color:#FFB324;
-
+        @media (max-width: 768px){
+            width:50px;
+            height: 50px;
+        }
         img{
             width:50px;
             height:50px;
+            @media (max-width: 768px){
+                width:30px
+            }
         }
     }
     div{
@@ -83,6 +90,9 @@ export const CardsContact = Styled.div`
         p{
             color: #9EAFB6;
             word-wrap: break-word;
+            @media (max-width: 768px){
+                font-size: 14px;
+            }
         }
     }
 `
@@ -91,9 +101,10 @@ export const ContainerForm = Styled.form`
 
     .row{
         display: grid;
-        grid-template-columns:1fr 1fr;
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
         gap: 20px;
         margin-bottom:20px;
+        
 
         input{
             padding:15px 20px;

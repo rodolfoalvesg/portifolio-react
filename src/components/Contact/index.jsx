@@ -4,7 +4,6 @@ import LocationImg from '../../assets/location.svg';
 import PostImg from '../../assets/post.svg';
 import PhoneImg from '../../assets/phone.svg';
 
-
 function Contact() {
   return (
     <Container>

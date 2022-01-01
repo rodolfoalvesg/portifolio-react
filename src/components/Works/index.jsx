@@ -12,8 +12,8 @@ export function Works() {
       <>
         <Container>
             <HeaderWorks>
-            <h3>Serviços</h3>
-            <h1>Qualidade & Eficiência</h1>
+                <h3>Serviços</h3>
+                <h1>Qualidade & Eficiência</h1>
             </HeaderWorks>
 
             <ContainerGrid>

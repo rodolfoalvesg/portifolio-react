@@ -33,7 +33,7 @@ export const GlobalStyle = createGlobalStyle`
     .react-modal-content {
         width: 100%;
         max-width: 75%;
-        height: 80vh;
+        height: 75vh;
         background-color: #494B50;
         padding: 2rem 1.5rem;
         position: relative;
@@ -43,8 +43,7 @@ export const GlobalStyle = createGlobalStyle`
         @media (max-width: 768px){
             width: 100%;
             max-width:90%;
-            height: 98vh;
-
+            height: 90vh;
         }
     }
 

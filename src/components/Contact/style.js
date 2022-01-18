@@ -40,7 +40,6 @@ export const HeaderContact = Styled.header`
 `
 export const ContainerContacts = Styled.div`
     display: grid;
-    //grid-template-columns: 40% 1fr;
     grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
     gap: 25px;
     margin-top:30px;
@@ -113,6 +112,9 @@ export const ContainerForm = Styled.form`
             border-radius: 5px;
             outline: none;
             color: #9eafb6;
+            @media (max-width: 768px){
+                width: 90%;
+            }
         }
 
         input::placeholder{
@@ -131,6 +133,10 @@ export const ContainerForm = Styled.form`
             outline: none;
             color: #9eafb6;
             resize: none;
+
+            @media (max-width: 768px){
+                width: 90%;
+            }
         }
         textarea::placeholder{
             color: #9eafb6;

@@ -9,6 +9,7 @@ export const HeaderMain = Styled.header`
     @media (max-width: 768px){
         display: flex;
         flex-direction: column;
+        margin-top: 20px;
     }
 
     #logo{

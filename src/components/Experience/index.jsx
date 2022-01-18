@@ -45,10 +45,17 @@ export function Experience() {
               </HeaderCards>
 
           <CardExperiences>
+              <h3>Estágio</h3>
+              <span>Vem Ser DBC - DBC</span>
+              <p>Aprendizado e desenvolvimento com a linguagem Java, HTML, CSS, Javascript, Spring com conexão a banco de dados Oracle SQL, entre outras.</p>
+              <span className="data">Fev/2022 - Hoje</span>
+          </CardExperiences>
+
+          <CardExperiences>
               <h3>Aprendiz</h3>
-              <span>Alpha Edtech - Stone</span>
-              <p>Aprendiz de Desenvolvimento Web participando de projetos de aprendizado e projetos reais utilizando linguagens: Go Lang, Javascript, HTML5, CSS3, NodeJs, ReactJs, PostgreSQL, JQuery e TypeScript. Banco de dados: PostgreSQL. Desenvolvimento softskills. Monitoria voluntária entre outras ações.</p>
-              <span className="data">Fev/2021 - Hoje</span>
+              <span>Stone</span>
+              <p>Aprendiz de Back-end utilizando a linguagem GO.</p>
+              <span className="data">Nov/2022 - Hoje</span>
           </CardExperiences>
 
           <CardExperiences>

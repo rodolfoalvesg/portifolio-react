@@ -19,8 +19,8 @@ function Contact() {
                         <img src={ PhoneImg} alt="Telefone" />
                     </span>
                     <div>
-                         <h3>Ligue</h3>
-                        <p>(83) 9 3300 8375</p> 
+                         <h3>Telefone/Whatsapp</h3>
+                        <p>(83) 9 3300 - 8375 ou 9 9126 - 0104</p> 
                     </div>
                 </CardsContact>
 
@@ -40,7 +40,7 @@ function Contact() {
                     </span>
                     <div>
                         <h3>Endereço</h3>
-                        <p>R. Antônio de Souza Lopes, 87, Campina Grande - PB</p> 
+                        <p>R. Antônio Cosme de Lima, 27, Andar 1 - Riachão do Bacamarte - PB CEP: 58.3820-000</p> 
                     </div>
                 </CardsContact>
             </div>
@@ -72,7 +72,6 @@ function Contact() {
             </div>
         </ContainerContacts>
 
-        
     </Container>
     );
 }

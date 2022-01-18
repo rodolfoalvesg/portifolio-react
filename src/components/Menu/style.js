@@ -62,6 +62,7 @@ export const NavStyle = Styled.nav`
         button:focus{
             background-color: #FF451B;
         }
+
         
         @media (max-width: 768px){
             display: flex;

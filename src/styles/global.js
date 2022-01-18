@@ -43,7 +43,7 @@ export const GlobalStyle = createGlobalStyle`
         @media (max-width: 768px){
             width: 100%;
             max-width:90%;
-            height: 90vh;
+            height: auto;
         }
     }
 

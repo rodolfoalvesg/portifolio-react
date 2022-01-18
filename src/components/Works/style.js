@@ -43,9 +43,9 @@ export const ContainerGrid = Styled.div`
 
 export const Row = Styled.div`
     display:grid;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
     // grid-template-columns: 1fr 1fr 1fr;
-    gap: 25px; 
+    gap: 10px; 
     min-height:300px;
     margin-bottom: 25px;
 

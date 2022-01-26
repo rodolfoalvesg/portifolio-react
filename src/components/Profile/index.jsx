@@ -31,7 +31,7 @@ export function Profile() {
                     </li>
                     <li>
                         <h3>Endereço</h3>
-                        <span>Campina Grande, PB</span>
+                        <span>Riachão do Bacamarte, PB</span>
                     </li>
                     <li>
                         <h3>Nacionalidade</h3>

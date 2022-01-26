@@ -55,7 +55,7 @@ export function Experience() {
               <h3>Aprendiz</h3>
               <span>Stone</span>
               <p>Aprendiz de Back-end utilizando a linguagem GO.</p>
-              <span className="data">Nov/2022 - Hoje</span>
+              <span className="data">Nov/2021 - Hoje</span>
           </CardExperiences>
 
           <CardExperiences>

@@ -43,14 +43,7 @@ export function Experience() {
                 <h2>Experiências</h2>
                 <span className="shape"></span>
               </HeaderCards>
-
-          <CardExperiences>
-              <h3>Estágio</h3>
-              <span>Vem Ser DBC - DBC</span>
-              <p>Aprendizado e desenvolvimento com a linguagem Java, HTML, CSS, Javascript, Spring com conexão a banco de dados Oracle SQL, entre outras.</p>
-              <span className="data">Fev/2022 - Hoje</span>
-          </CardExperiences>
-
+              
           <CardExperiences>
               <h3>Aprendiz</h3>
               <span>Stone</span>

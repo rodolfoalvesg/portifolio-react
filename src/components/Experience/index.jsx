@@ -43,12 +43,19 @@ export function Experience() {
                 <h2>Experiências</h2>
                 <span className="shape"></span>
               </HeaderCards>
-              
+          
+          <CardExperiences>
+              <h3>Desenvolvedor Jr - GO</h3>
+              <span>Stone</span>
+              <p>Desenvolvedor Back-end utilizando a linguagem GO.</p>
+              <span className="data">Mar/2022 - Hoje</span>
+          </CardExperiences>
+    
           <CardExperiences>
               <h3>Aprendiz</h3>
               <span>Stone</span>
               <p>Aprendiz de Back-end utilizando a linguagem GO.</p>
-              <span className="data">Nov/2021 - Hoje</span>
+              <span className="data">Nov/2021 - Mar/2022</span>
           </CardExperiences>
 
           <CardExperiences>

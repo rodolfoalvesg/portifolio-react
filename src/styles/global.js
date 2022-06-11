@@ -2,7 +2,6 @@ import Styled, {createGlobalStyle} from 'styled-components'
 
 
 export const GlobalStyle = createGlobalStyle`
-    
     *{
         margin: 0;
         padding: 0;
@@ -12,7 +11,6 @@ export const GlobalStyle = createGlobalStyle`
     body{
         background: #1d1b1b;
         font-family: "Poppins", Arial, Helvetica, sans-serif;
-        cursor: url('../assets/teste.cur', pointer);
     }
 
     .react-modal-overlay {
@@ -33,18 +31,12 @@ export const GlobalStyle = createGlobalStyle`
     .react-modal-content {
         width: 100%;
         max-width: 75%;
-        height: 75vh;
+        height: auto;
         background-color: #494B50;
         padding: 2rem 1.5rem;
         position: relative;
         border-radius: 10px;
         overflow: hidden;
-
-        @media (max-width: 768px){
-            width: 100%;
-            max-width:90%;
-            height: auto;
-        }
     }
 
     .react-modal-close{
@@ -85,6 +77,5 @@ export const Container = Styled.div`
     margin-right: auto;
     left: 0;
     right: 0;
-    
 `;
 

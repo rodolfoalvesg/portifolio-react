@@ -36,6 +36,7 @@ export function ModalGroup(props) {
         break;
     }
   }
+  
 
   return (
     <Modal 

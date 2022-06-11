@@ -48,8 +48,9 @@ export const Container = Styled.section`
         padding: 0 20px;
         color: #fff;
         position: relative;
+        border: 1px solid red;
         
-        @media (max-width: 768px){
+        @media (max-width: 1080px){
             width: 100%;
         }
 
